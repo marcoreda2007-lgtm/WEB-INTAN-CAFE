@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-cafe-bg: #FAF8F5;
+  --color-cafe-text: #3E2723;
+  --color-cafe-accent: #D4A373;
+  --color-cafe-accent-hover: #C08C5D;
+  --color-cafe-muted: #8D6E63;
+  --color-cafe-border: #E6D5C3;
+}
+
+body {
+  background-color: var(--color-cafe-bg);
+  color: var(--color-cafe-text);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
